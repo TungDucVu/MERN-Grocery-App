@@ -42,6 +42,8 @@ const App = () => {
           </Route>
         </Routes>
       </div>
+
+      
       {!isSellerPath && <Footer />}
     </div>
   )
