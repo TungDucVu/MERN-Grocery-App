@@ -23,7 +23,7 @@ await connectDB()
 await connectCloudinary()
 
 // alow multiple origins
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = ['http://localhost:5173', 'https://mern-grocery-app-p4g7.vercel.app']
 
 // midleware
 app.use(express.json())
